@@ -10,7 +10,7 @@
   "repository": "/ujina",
   "scripts": {
     "dev": "vuepress dev blog", 
-    "build": "vuepress build blog"
+    "build": "vuepress build blog --dest dist"
   },
   "license": "MIT",
   "devDependencies": {
