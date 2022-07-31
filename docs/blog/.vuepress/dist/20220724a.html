@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>VuePressでブログ、git の初歩の初歩本など | TORU NOTE </title>
+    <meta name="generator" content="VuePress 1.9.7">
+    
+    <meta name="description" content="
+
+VuePress公式のブログ設置ができるようになった。この1年以内にできたことあったが、理解していないままたまたまできたやつで、再現が何度か再挑戦してもできないままだった。
+
+VuePress 本体の設置から、ファイル階層に気をつけて設置するとうまくいった。
+以下の順に確認したのがよかったみたい。
+
+VuePress の設置
+ブログのための階層とファイル設置
+プラグイン @vuep ...">
+    
+    <link rel="preload" href="/assets/css/0.styles.cacf1231.css" as="style"><link rel="preload" href="/assets/js/app.a52ed0f8.js" as="script"><link rel="preload" href="/assets/js/6.b919b7b5.js" as="script"><link rel="preload" href="/assets/js/3.54cf4340.js" as="script"><link rel="preload" href="/assets/js/15.d4ae6e57.js" as="script"><link rel="prefetch" href="/assets/js/10.7f04b0d4.js"><link rel="prefetch" href="/assets/js/11.5170b2fa.js"><link rel="prefetch" href="/assets/js/12.f76c701a.js"><link rel="prefetch" href="/assets/js/13.c155ad89.js"><link rel="prefetch" href="/assets/js/14.7212f1d7.js"><link rel="prefetch" href="/assets/js/16.e5d4d21a.js"><link rel="prefetch" href="/assets/js/17.a91b0d7d.js"><link rel="prefetch" href="/assets/js/18.c114ee56.js"><link rel="prefetch" href="/assets/js/19.3a1fe8f5.js"><link rel="prefetch" href="/assets/js/20.683a0d59.js"><link rel="prefetch" href="/assets/js/21.5482aeeb.js"><link rel="prefetch" href="/assets/js/4.dc5fd31d.js"><link rel="prefetch" href="/assets/js/5.0a06e018.js"><link rel="prefetch" href="/assets/js/7.225463a8.js"><link rel="prefetch" href="/assets/js/8.878f17ba.js"><link rel="prefetch" href="/assets/js/9.cabd0c2d.js"><link rel="prefetch" href="/assets/js/vuejs-paginate.dbbb5117.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.cacf1231.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div id="vuepress-theme-blog__global-layout"><section id="header-wrapper"><header id="header"><div class="header-wrapper"><div class="title"><a href="/" class="nav-link home-link">TORU NOTE  </a></div> <div class="header-right-wrap"><ul class="nav"><li class="nav-item"><a href="/" class="nav-link">Blog</a></li><li class="nav-item"><a href="/tag/" class="nav-link">Tags</a></li></ul> <div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></div></header></section> <div id="mobile-header"><div class="mobile-header-bar"><div class="mobile-header-title"><a href="/" class="nav-link mobile-home-link">TORU NOTE  </a> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></div> <div class="mobile-menu-wrapper"><hr class="menu-divider"> <ul class="mobile-nav"><li class="mobile-nav-item"><a href="/" class="nav-link">Blog</a></li><li class="mobile-nav-item"><a href="/tag/" class="nav-link">Tags</a></li> <li class="mobile-nav-item"><!----></li></ul></div></div></div> <div class="content-wrapper"><div id="vuepress-theme-blog__post-layout"><article itemscope="itemscope" itemtype="https://schema.org/BlogPosting" class="vuepress-blog-theme-content"><header><h1 itemprop="name headline" class="post-title">
+        VuePressでブログ、git の初歩の初歩本など
+      </h1> <div class="post-meta"><div itemprop="publisher author" itemtype="http://schema.org/Person" itemscope="itemscope" class="post-meta-author"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-navigation"><polygon points="3 11 22 2 13 21 11 13 3 11"></polygon></svg> <span itemprop="name">Toru</span> <span itemprop="address">   in Ujina</span></div> <div class="post-meta-date"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> <time pubdate itemprop="datePublished" datetime="2022-07-24T00:00:00.000Z">
+      2022 Jul 24 Sun 00:07
+    </time></div> <!----></div></header> <div itemprop="articleBody" class="content__default"><h2 id="vuepress-でブログの設置"><a href="#vuepress-でブログの設置" class="header-anchor">#</a> VuePress でブログの設置</h2> <p>VuePress公式のブログ設置ができるようになった。この1年以内にできたことあったが、理解していないままたまたまできたやつで、再現が何度か再挑戦してもできないままだった。</p> <p>VuePress 本体の設置から、ファイル階層に気をつけて設置するとうまくいった。
+以下の順に確認したのがよかったみたい。</p> <ul><li>VuePress の設置</li> <li>ブログのための階層とファイル設置</li> <li>プラグイン @vuepress/blog のインストール</li> <li>プラグイン @vuepress/theme-blog のインストール</li> <li>package.json の script 設定を変更</li> <li>.vuepress/config.js に　module.exports = {　の各記入</li></ul> <h2 id="git-を基礎の基礎からゆっくりやり直す"><a href="#git-を基礎の基礎からゆっくりやり直す" class="header-anchor">#</a> Git を基礎の基礎からゆっくりやり直す</h2> <p>VuePressサイトをGithubでホスティングしようとして、Git(コマンドライン)でつまづくことがたびたび。Gitログイン（トークン使用）だったりもしたけど、commit周りがよくわかってない。</p> <p>なにかGit入門書を読んでみようと手に取ったら、早く読めばよかったと思った。</p> <ul><li>Gitの操作（コマンド）は、複数人でのバージョン管理という機能のために作られている</li> <li>最初は GitDesktop の操作をしながら基礎をつかむのがよい(視覚支援になっているのかも)</li> <li>gitアカウントを複数作って動きをつかむことも一考</li> <li>レポジトリ作成、クローン、プッシュ・プル、コンフリクト、ブランチ</li> <li>README.md の作成</li></ul> <p>本を読んで手とり足取りしてもらう段階は必要だな。</p></div> <footer><!----> <hr> <!----></footer></article> <div class="sticker vuepress-toc"><div class="vuepress-toc-item vuepress-toc-h2 active"><a href="#vuepress-でブログの設置" title="VuePress でブログの設置">VuePress でブログの設置</a></div><div class="vuepress-toc-item vuepress-toc-h2"><a href="#git-を基礎の基礎からゆっくりやり直す" title="Git を基礎の基礎からゆっくりやり直す">Git を基礎の基礎からゆっくりやり直す</a></div></div></div></div> <footer class="footer" data-v-3d9deeb8><div class="footer-left-wrap" data-v-3d9deeb8><ul class="contact" data-v-3d9deeb8></ul></div> <div class="footer-right-wrap" data-v-3d9deeb8><ul class="copyright" data-v-3d9deeb8></ul></div></footer></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.a52ed0f8.js" defer></script><script src="/assets/js/6.b919b7b5.js" defer></script><script src="/assets/js/3.54cf4340.js" defer></script><script src="/assets/js/15.d4ae6e57.js" defer></script>
+  </body>
+</html>
