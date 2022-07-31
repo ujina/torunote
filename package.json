@@ -1,0 +1,25 @@
+{
+  "name": "torublog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ujina/torublog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ujina/torublog/issues"
+  },
+  "homepage": "https://github.com/ujina/torublog#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  }
+}
